@@ -1,0 +1,136 @@
+:root {
+    --special-color: #ef9036;
+}
+* {
+    box-sizing: border-box;
+}
+.navbar .container .egypt-flag img {
+    width: 20px;
+    height: 20px;
+    border-radius: 5%;
+}
+.navbar .container .egypt-flag p {
+    color: var(--special-color);
+}
+.btn-outline-success {
+    --bs-btn-hover-bg: var(--special-color);
+    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--special-color);
+    --bs-btn-active-border-color: var(--special-color);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.9);
+    --bs-btn-disabled-color: var(--special-color);
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: var(--special-color);
+    --bs-gradient: none;
+}
+.btn {
+    border-color: #ced4da;
+    background-color: #eee;
+    font-weight: 500;
+    color: var(--special-color);
+}
+.btn:hover {
+    background-color: #e7e7e7;
+    border-color: #e7e7e7;
+    color: #212529;
+}
+.last-part a, .last-part i{
+    color: var(--special-color) !important;
+}
+.navbar .container .egypt-flag img {
+    width: 20px;
+    height: 20px;
+    border-radius: 5%;
+}
+/* section nav */
+.super-man-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 5%;
+}
+.section-2 .navbar-nav {
+    align-items: center;
+}
+a.nav-link {
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+}
+/* main section  */
+.main-section {
+    background-color: rgb(248,249,250);
+}
+.main-section .aside-head {
+    background-color: #eee;
+}
+.accordion {
+    --bs-accordion-bg: transparent;
+}
+.accordion-button.special::after {
+    top: 2px;
+    left: 15px;
+    position: absolute;
+}
+.accordion-button {
+    position: relative;
+}
+.accordion-item {
+    border: none;
+}
+.accordion-item * {
+    padding: 2px;
+}
+.big-accordion 
+/* section price in part 2 in aside */
+.progress .progress-bar {
+    background-color: var(--special-color);
+}
+.progress .circle-me {
+    background-color: var(--special-color) !important;
+}
+/* last section */
+.last-box .d-flex {
+    width: 55%;
+}
+/* center-content */
+.cards-container .card h5 span {
+    color: var(--special-color);
+}
+.checked {
+    color: var(--special-color);
+}
+.main-container {
+    background-color: #eee;
+}
+
+/* side contant */
+.accordion-button.main::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+    transform: scale(.7) !important;
+}
+    
+.accordion-button.main:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+}
+.progress-bar {
+    background-color: var(--special-color);
+}
+/* middle section */
+.midlle-section .s-box i {
+    font-size: 50px;
+    color: var(--special-color);
+}
+/* Footer */
+.foot-container {
+    color: #212529;
+    background-color: #eee;
+}
+
+.btn {
+    color: #fff !important;
+}
+.btn:hover {
+    background-color: var(--special-color) !important;
+    color: #fff !important;
+}
